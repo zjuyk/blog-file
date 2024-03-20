@@ -1,7 +1,7 @@
 ---
 title: "命令行工具整理"
 date: 2019-12-11T00:28:45+08:00
-draft: false
+draft: true
 toc: false
 tags: 
 - cli

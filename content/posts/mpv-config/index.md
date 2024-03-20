@@ -3,11 +3,9 @@ title: "配置一个顺手的 MPV 播放器"
 date: 2021-09-08T20:04:52+08:00
 draft: false
 tags:
-- mpv
-- lua
-- script
-toc: true
-rss_ignore: false
+- MPV
+categories:
+- 工具
 ---
 
 如果是对我有所关注的小伙伴，会发现我之前曾经写过一份 `mpv` 配置，这一份是在我速成了 `lua` 后的升级版，其中包含对 `mpv` 0.33 版本大改的对应修正。

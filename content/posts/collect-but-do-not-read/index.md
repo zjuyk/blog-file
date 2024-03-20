@@ -3,11 +3,10 @@ title: "只收藏却不阅读"
 date: 2021-09-25T22:15:17+08:00
 draft: false
 tags:
-- learn
-- collection
-- read
-toc: true
-rss_ignore: false
+    - 收藏
+    - 方法论
+categories:
+    - 思考
 ---
 
 我曾经很喜欢收集一些有用的资源，尤其在我认真思索如何搜索到合适的资源之后。但当我在收藏夹又顺手加入一个 `awesome` 前缀的 `github` 仓库时，我突然愣住了。回望收藏夹，东西好多呀，但我真正读过的东西又占多少呢？
