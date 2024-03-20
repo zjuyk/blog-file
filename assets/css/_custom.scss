@@ -1,0 +1,19 @@
+[data-page-style='custom'] {
+    @media only screen and (min-width: 1441px) {
+      %page-style {
+        width: 70%;
+      }
+    }
+  
+    @media only screen and (min-width: 1440px) {
+      %page-style {
+        width: 60%;
+      }
+    }
+  
+    @media only screen and (min-width: 1200px) {
+      %page-style {
+        width: 56%;
+      }
+    }
+  }
