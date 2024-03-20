@@ -22,25 +22,7 @@ rss_ignore: true
 
 忘了说了，专业是`CS`，喜欢折腾各种电子设备，遇上新应用总是要在第一时间捏成自己喜欢的形状，尤其是 DE（这算是强迫症吗？），`c/c++`入的门，但偏偏喜欢`python`，因为课程设计的原因接触了`java`开发，但只做了一个小 demo 就没再玩了。为了捏一个简洁的博客尝试了 N 多主题，最后还是入了`Hugo`的坑，选了这个近乎于白板的主题（好吧，是因为它够简洁还有阴影效果），以后有需求了就给它改改刀，被迫把主题代码和官方文档狂翻的男人，感觉一段时间之后就能发一个新主题了（开玩笑的
 
-喜欢轻音乐，以燃向和哀伤的调子为主，喜欢古风，西方的音乐较少听，下面开个小歌单，不定期更新:
-
-1 镇命歌
-
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=4956877&auto=0&height=66"></iframe>
-
-祭祀之乐，哀婉且绵长
-
-2 五月雨
-
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=530507&auto=0&height=66"></iframe>
-
-永远的火影
-
-3 潇湘子
-
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=490637664&auto=0&height=66"></iframe>
-
-红绳糯米今犹在，不见当年林正英！
+喜欢轻音乐，以燃向和哀伤的调子为主，喜欢古风，西方的音乐较少听。
 
 ### 欢迎来找我玩耍
 
