@@ -1,7 +1,7 @@
 ---
 title: "只收藏却不阅读"
 date: 2021-09-25T22:15:17+08:00
-draft: false
+draft: true
 tags:
     - 收藏
     - 方法论
