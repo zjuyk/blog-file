@@ -1,0 +1,53 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Tools - 标签 - 千玄洞</title>
+    <link>http://localhost:1313/tags/tools/</link>
+    <description>Tools - 标签 | 千玄洞</description>
+    <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>ownbyzjuyk@gmail.com (千玄子)</managingEditor>
+      <webMaster>ownbyzjuyk@gmail.com (千玄子)</webMaster><copyright>CC BY-NC-SA 4.0</copyright><lastBuildDate>Wed, 11 Dec 2019 00:28:45 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/tags/tools/" rel="self" type="application/rss+xml" /><item>
+  <title>命令行工具整理</title>
+  <link>http://localhost:1313/posts/cli-tools/</link>
+  <pubDate>Wed, 11 Dec 2019 00:28:45 &#43;0800</pubDate>
+  <author>千玄子</author>
+  <guid>http://localhost:1313/posts/cli-tools/</guid>
+  <description><![CDATA[<p>平常使用的一些命令行工具，整理一下分享出来，大家有好用的也可以推荐一下</p>
+<h4 id="1-bat" class="heading-element">
+  <a href="#1-bat" class="heading-mark"></a>1 bat</h4><pre><code>加强版的 cat，可以显示行号并且支持语法高亮
+</code></pre>
+<h4 id="2-htop" class="heading-element">
+  <a href="#2-htop" class="heading-mark"></a>2 htop</h4><pre><code>加强版的 top，可以彩色输出进程信息并提供按键提示，强烈安利
+</code></pre>
+<h4 id="3-neofetch" class="heading-element">
+  <a href="#3-neofetch" class="heading-mark"></a>3 neofetch</h4><pre><code>可定制性强，在系统展示方面优于 screenfetch
+</code></pre>
+<h4 id="4-stow" class="heading-element">
+  <a href="#4-stow" class="heading-mark"></a>4 stow</h4><pre><code>备份工具，用于备份和上传自己的用户配置
+</code></pre>
+<h4 id="5-cloc" class="heading-element">
+  <a href="#5-cloc" class="heading-mark"></a>5 cloc</h4><pre><code>代码统计工具，扩展性也很强，我用来统计大项目的文件
+</code></pre>
+<h4 id="6-figletcowsay" class="heading-element">
+  <a href="#6-figletcowsay" class="heading-mark"></a>6 figlet+cowsay</h4><pre><code>可以输出好看的艺术字，在自己的脚本里加上这个会更好看 ps：也可以用来做展示
+</code></pre>
+<h4 id="7-tree" class="heading-element">
+  <a href="#7-tree" class="heading-mark"></a>7 tree</h4><pre><code>展示树形目录，做项目描述必备
+</code></pre>
+<h4 id="8-ffmpeg" class="heading-element">
+  <a href="#8-ffmpeg" class="heading-mark"></a>8 ffmpeg</h4><pre><code>强大的视频工具，用于简单的处理视频比如旋转或格式转换
+</code></pre>
+<h4 id="9-imagemagick" class="heading-element">
+  <a href="#9-imagemagick" class="heading-mark"></a>9 imagemagick</h4><pre><code>强大的照片工具，用于简单的处理图片比如缩放尺寸或去除背景色
+</code></pre>
+<h4 id="10-ripgrep" class="heading-element">
+  <a href="#10-ripgrep" class="heading-mark"></a>10 ripgrep</h4><pre><code>比 grep 更高速的正则匹配工具
+</code></pre>
+<h4 id="11-ydcv" class="heading-element">
+  <a href="#11-ydcv" class="heading-mark"></a>11 ydcv</h4><pre><code>命令行版的有道词典翻译工具，还支持划词翻译
+</code></pre>
+<h4 id="12-tldr" class="heading-element">
+  <a href="#12-tldr" class="heading-mark"></a>12 tldr</h4><pre><code>全称是 too long, don't read，由于 man 页面有时候过长，我们有时候只需要了解几个常用用法，这时候 tldr 就很有用了。
+它会列出几个使用样例，方便快速查阅。（由于志愿者还不够多，中文的样例比较少，欢迎大家参与到这个项目中来。
+</code></pre>]]></description>
+</item>
+</channel>
+</rss>
