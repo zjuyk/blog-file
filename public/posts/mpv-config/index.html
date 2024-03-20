@@ -9,14 +9,14 @@
 <meta name="author-link" content="https://zjuyk.site">
 <meta name="description" content="如果是对我有所关注的小伙伴，会发现我之前曾经写过一份 mpv 配置，这一份是在我速成了 lua 后的升级版，其中包含对 mpv 0.33 版本大改的对应修正。" /><meta name="keywords" content='mpv, lua, script' /><meta itemprop="name" content="配置一个顺手的 MPV 播放器">
 <meta itemprop="description" content="如果是对我有所关注的小伙伴，会发现我之前曾经写过一份 mpv 配置，这一份是在我速成了 lua 后的升级版，其中包含对 mpv 0.33 版本大改的对应修正。"><meta itemprop="datePublished" content="2021-09-08T20:04:52+08:00" />
-<meta itemprop="dateModified" content="2021-09-08T20:04:52+08:00" />
+<meta itemprop="dateModified" content="2024-03-20T14:18:17+08:00" />
 <meta itemprop="wordCount" content="782"><meta itemprop="image" content="http://localhost:1313/favicon.ico" />
 <meta itemprop="keywords" content="mpv,lua,script," /><meta property="og:title" content="配置一个顺手的 MPV 播放器" />
 <meta property="og:description" content="如果是对我有所关注的小伙伴，会发现我之前曾经写过一份 mpv 配置，这一份是在我速成了 lua 后的升级版，其中包含对 mpv 0.33 版本大改的对应修正。" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://localhost:1313/posts/mpv-config/" /><meta property="og:image" content="http://localhost:1313/favicon.ico" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2021-09-08T20:04:52+08:00" />
-<meta property="article:modified_time" content="2021-09-08T20:04:52+08:00" />
+<meta property="article:modified_time" content="2024-03-20T14:18:17+08:00" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:image" content="http://localhost:1313/favicon.ico" /><meta name="twitter:title" content="配置一个顺手的 MPV 播放器"/>
 <meta name="twitter:description" content="如果是对我有所关注的小伙伴，会发现我之前曾经写过一份 mpv 配置，这一份是在我速成了 lua 后的升级版，其中包含对 mpv 0.33 版本大改的对应修正。"/>
@@ -33,7 +33,7 @@
       "@type": "WebPage",
       "@id": "http:\/\/localhost:1313\/posts\/mpv-config\/"
     },"genre": "posts","keywords": "mpv, lua, script","wordcount":  782 ,
-    "url": "http:\/\/localhost:1313\/posts\/mpv-config\/","datePublished": "2021-09-08T20:04:52+08:00","dateModified": "2021-09-08T20:04:52+08:00","license": "CC BY-NC-SA 4.0","publisher": {
+    "url": "http:\/\/localhost:1313\/posts\/mpv-config\/","datePublished": "2021-09-08T20:04:52+08:00","dateModified": "2024-03-20T14:18:17+08:00","license": "CC BY-NC-SA 4.0","publisher": {
       "@type": "Organization",
       "name": "千玄子"},"author": {
         "@type": "Person",
@@ -46,25 +46,33 @@
     <div class="header-title">
       <a href="/" title="千玄洞"><span class="header-title-text">千玄洞</span></a><span class="header-subtitle"></span></div>
     <nav>
-      <ul class="menu"><li class="menu-item">
+      <ul class="menu"><li class="menu-item has-children">
               <a
                 class="menu-link"
                 href="/archives/"
                 
                 
-              ><i class="fa-solid fa-archive fa-fw fa-sm" aria-hidden="true"></i> 归档</a></li><li class="menu-item">
-              <a
-                class="menu-link"
-                href="/categories/"
-                
-                
-              ><i class="fa-solid fa-folder-tree fa-fw fa-sm" aria-hidden="true"></i> 分类</a></li><li class="menu-item">
-              <a
-                class="menu-link"
-                href="/tags/"
-                
-                
-              ><i class="fa-solid fa-tags fa-fw fa-sm" aria-hidden="true"></i> 标签</a></li><li class="menu-item">
+              ><i class="fa-solid fa-archive fa-fw fa-sm" aria-hidden="true"></i> 归档</a><i class="dropdown-icon fa-solid fa-chevron-down" aria-hidden="true"></i>
+                <ul class="sub-menu">
+                  <li
+                        class="menu-item"
+                      >
+                        <a
+                          class="menu-link"
+                          href="/categories/"
+                          
+                          
+                        ><i class="fa-solid fa-folder-tree fa-fw fa-sm" aria-hidden="true"></i> 分类</a>
+                      </li><li
+                        class="menu-item"
+                      >
+                        <a
+                          class="menu-link"
+                          href="/tags/"
+                          
+                          
+                        ><i class="fa-solid fa-tags fa-fw fa-sm" aria-hidden="true"></i> 标签</a>
+                      </li></ul></li><li class="menu-item">
               <a
                 class="menu-link"
                 href="/about/"
@@ -76,7 +84,7 @@
                 href="/friends/"
                 
                 
-              ><i class="fa-solid fa-users fa-fw fa-sm" aria-hidden="true"></i> 好友</a></li><li class="menu-item delimiter"></li><li class="menu-item search" id="search-desktop">
+              ><i class="fa-solid fa-users-viewfinder fa-fw fa-sm" aria-hidden="true"></i> 友链</a></li><li class="menu-item delimiter"></li><li class="menu-item search" id="search-desktop">
             <input type="text" placeholder="找点啥？" id="search-input-desktop">
             <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="搜索">
               <i class="fa-solid fa-search fa-fw" aria-hidden="true"></i>
@@ -120,26 +128,35 @@
             </a>
           </li><li
               class="menu-item"
-            ><a
-                  class="menu-link"
-                  href="/archives/"
-                  
-                  
-                ><i class="fa-solid fa-archive fa-fw fa-sm" aria-hidden="true"></i> 归档</a></li><li
-              class="menu-item"
-            ><a
-                  class="menu-link"
-                  href="/categories/"
-                  
-                  
-                ><i class="fa-solid fa-folder-tree fa-fw fa-sm" aria-hidden="true"></i> 分类</a></li><li
-              class="menu-item"
-            ><a
-                  class="menu-link"
-                  href="/tags/"
-                  
-                  
-                ><i class="fa-solid fa-tags fa-fw fa-sm" aria-hidden="true"></i> 标签</a></li><li
+            ><span class="nested-item">
+                  <a
+                    class="menu-link"
+                    href="/archives/"
+                    
+                    
+                  ><i class="fa-solid fa-archive fa-fw fa-sm" aria-hidden="true"></i> 归档</a>
+                  <i class="dropdown-icon fa-solid fa-chevron-right" aria-hidden="true"></i>
+                </span>
+                <ul class="sub-menu">
+                  <li
+                        class="menu-item"
+                      >
+                        <a
+                          class="menu-link"
+                          href="/categories/"
+                          
+                          
+                        ><i class="fa-solid fa-folder-tree fa-fw fa-sm" aria-hidden="true"></i> 分类</a>
+                      </li><li
+                        class="menu-item"
+                      >
+                        <a
+                          class="menu-link"
+                          href="/tags/"
+                          
+                          
+                        ><i class="fa-solid fa-tags fa-fw fa-sm" aria-hidden="true"></i> 标签</a>
+                      </li></ul></li><li
               class="menu-item"
             ><a
                   class="menu-link"
@@ -153,7 +170,7 @@
                   href="/friends/"
                   
                   
-                ><i class="fa-solid fa-users fa-fw fa-sm" aria-hidden="true"></i> 好友</a></li><li class="menu-item menu-system">
+                ><i class="fa-solid fa-users-viewfinder fa-fw fa-sm" aria-hidden="true"></i> 友链</a></li><li class="menu-item menu-system">
           <span class="menu-system-item theme-switch" title="切换主题"><i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i></span></li>
       </ul>
     </nav>
@@ -171,7 +188,7 @@
   <article class="page single">
     <div class="header"><h1 class="single-title animate__animated animate__flipInX"><span>配置一个顺手的 MPV 播放器</span>
       </h1></div><div class="post-meta">
-      <div class="post-meta-line"><span class="post-author"><a href="https://zjuyk.site" title="作者"target="_blank" rel="external nofollow noopener noreferrer author" class="author"><img loading="lazy" src="https://cn.gravatar.com/avatar/455e0661bd0777d544dd31ef8dbc98dd?s=32&amp;d=" alt="千玄子" data-title="千玄子" class="avatar" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/>&nbsp;千玄子</a></span></div><div class="post-meta-line"><span title="发布于 2021-09-08 20:04:52"><i class="fa-solid fa-calendar-days fa-fw me-1" aria-hidden="true"></i><time datetime="2021-09-08">2021-09-08</time></span>&nbsp;<span title="782 字"><i class="fa-solid fa-pencil-alt fa-fw me-1" aria-hidden="true"></i>约 800 字</span>&nbsp;<span><i class="fa-regular fa-clock fa-fw me-1" aria-hidden="true"></i>预计阅读 2 分钟</span>&nbsp;<span id="busuanzi_container_page_pv" class="busuanzi_visitors comment-visitors" data-flag-title="配置一个顺手的 MPV 播放器">
+      <div class="post-meta-line"><span class="post-author"><a href="https://zjuyk.site" title="作者"target="_blank" rel="external nofollow noopener noreferrer author" class="author"><img loading="lazy" src="https://cn.gravatar.com/avatar/455e0661bd0777d544dd31ef8dbc98dd?s=32&amp;d=" alt="千玄子" data-title="千玄子" class="avatar" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/>&nbsp;千玄子</a></span></div><div class="post-meta-line"><span title="发布于 2021-09-08 20:04:52"><i class="fa-solid fa-calendar-days fa-fw me-1" aria-hidden="true"></i><time datetime="2021-09-08">2021-09-08</time></span>&nbsp;<span title="更新于 2024-03-20 14:18:17"><i class="fa-regular fa-calendar-check fa-fw me-1" aria-hidden="true"></i><time datetime="2024-03-20">2024-03-20</time></span>&nbsp;<span title="782 字"><i class="fa-solid fa-pencil-alt fa-fw me-1" aria-hidden="true"></i>约 800 字</span>&nbsp;<span><i class="fa-regular fa-clock fa-fw me-1" aria-hidden="true"></i>预计阅读 2 分钟</span>&nbsp;<span id="busuanzi_container_page_pv" class="busuanzi_visitors comment-visitors" data-flag-title="配置一个顺手的 MPV 播放器">
             <i class="fa-regular fa-eye fa-fw me-1" aria-hidden="true"></i><span id="busuanzi_value_page_pv">-</span>&nbsp;次阅读
           </span>&nbsp;</div>
     </div><div class="details toc" id="toc-static" data-kept="false">
@@ -194,14 +211,7 @@
     <li><a href="#5-链接">5. 链接</a></li>
   </ul>
 </nav></div>
-      </div><div class="content" id="content"><div class="details admonition warning open">
-      <div class="details-summary admonition-title">
-        <i class="icon fa-solid fa-exclamation-triangle fa-fw" aria-hidden="true"></i>警告<i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true"></i>
-      </div>
-      <div class="details-content">
-        <div class="admonition-content">本文最后更新于 2021-09-08，文中内容可能已过时。</div>
-      </div>
-    </div><p>如果是对我有所关注的小伙伴，会发现我之前曾经写过一份 <code>mpv</code> 配置，这一份是在我速成了 <code>lua</code> 后的升级版，其中包含对 <code>mpv</code> 0.33 版本大改的对应修正。</p>
+      </div><div class="content" id="content"><p>如果是对我有所关注的小伙伴，会发现我之前曾经写过一份 <code>mpv</code> 配置，这一份是在我速成了 <code>lua</code> 后的升级版，其中包含对 <code>mpv</code> 0.33 版本大改的对应修正。</p>
 <h2 id="1-成果展示" class="heading-element">
   <a href="#1-%e6%88%90%e6%9e%9c%e5%b1%95%e7%a4%ba" class="heading-mark"></a>1. 成果展示</h2><p><img loading="lazy" src="./history.png" alt="recent" srcset="./history.png?size=small, ./history.png?size=medium 1.5x, ./history.png?size=large 2x" data-title="recent" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
 <p><img loading="lazy" src="./file-browser.png" alt="file browser" srcset="./file-browser.png?size=small, ./file-browser.png?size=medium 1.5x, ./file-browser.png?size=large 2x" data-title="file browser" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
@@ -365,7 +375,7 @@
   <div class="post-info">
     <div class="post-info-line">
       <div class="post-info-mod">
-        <span title="更新于 2021-09-08 20:04:52">更新于 2021-09-08&nbsp;</span>
+        <span title="更新于 2024-03-20 14:18:17">更新于 2024-03-20&nbsp;<a class="git-hash" href="https://github.com/zjuyk/blog-files/commit/b0791863aa49fb6bb00258acdefeef48c31dfdf3" rel="external nofollow noopener noreferrer" target="_blank" title="commit by zjuyk(ownbyzjuyk@gmail.com) b0791863aa49fb6bb00258acdefeef48c31dfdf3: init"><i class="fa-solid fa-hashtag fa-fw" aria-hidden="true"></i>b079186</a></span>
       </div><div class="post-info-license">
             <span><a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a></span>
           </div></div><div class="post-info-line">

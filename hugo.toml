@@ -63,7 +63,7 @@ enableEmoji = true
       type = ""
   [[menu.main]]
     identifier = "categories"
-    parent = ""
+    parent = "archives"
     pre = ""
     post = ""
     name = "分类"
@@ -74,7 +74,7 @@ enableEmoji = true
       icon = "fa-solid fa-folder-tree"
   [[menu.main]]
     identifier = "tags"
-    parent = ""
+    parent = "archives"
     pre = ""
     post = ""
     name = "标签"
@@ -99,12 +99,12 @@ enableEmoji = true
     parent = ""
     pre = ""
     post = ""
-    name = "好友"
+    name = "友链"
     url = "/friends/"
     title = ""
     weight = 5
     [menu.main.params]
-      icon = "fa-solid fa-users"
+      icon = "fa-solid fa-users-viewfinder"
 
 # -------------------------------------------------------------------------------------
 # Related content Configuration
