@@ -7,7 +7,7 @@ rss_ignore: true
 ---
 
 <div align=center>
-<img src="https://blog.zjuyk.site/images/icon-circle.png" width = "60" height="60"></img>
+<img src="icon-circle.png" width = "60" height="60"></img>
 </div>
 
 ### 自我简述
@@ -20,7 +20,7 @@ rss_ignore: true
 
 - 坚定的`ArchLinux`使用者，自接触到`Linux`世界，陪伴我最长时间的还是`ArchLinux`，这个优雅的发行版就是有着这样神奇的魔力，仿佛包含一切的`wiki`为我彻底打开了新世界的大门。
 
-- 忘了说了，专业是`CS`，喜欢折腾各种电子设备，遇上新应用总是要在第一时间捏成自己喜欢的形状，尤其是 DE/WM（这算是强迫症吗？）
+- 专业是`CS`，喜欢折腾各种电子设备，遇上新应用总是要在第一时间捏成自己喜欢的形状，尤其是 DE/WM（这算是强迫症吗？）
 
 - 喜欢轻音乐，以燃向和哀伤的调子为主，喜欢古风，西方的音乐较少听。
 
