@@ -717,7 +717,7 @@ enableEmoji = true
       # used with `markup.tableOfContents.ordered` parameter
       [params.page.heading.number]
         # whether to enable auto heading numbering
-        enable = false
+        enable = true
         [params.page.heading.number.format]
           h1 = "{title}"
           h2 = "{h2} {title}"
