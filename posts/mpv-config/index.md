@@ -130,5 +130,5 @@ sub-auto=fuzzy
 ---
 
 > 作者: [千玄子](https://zjuyk.site)  
-> URL: https://blog.zjuyk.site/posts/mpv-config/  
+> URL: https://zjuyk.site/blog-file/posts/mpv-config/  
 

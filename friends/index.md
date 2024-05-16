@@ -63,5 +63,5 @@
 ---
 
 > 作者:   
-> URL: https://blog.zjuyk.site/friends/  
+> URL: https://zjuyk.site/blog-file/friends/  
 

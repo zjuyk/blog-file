@@ -65,4 +65,4 @@ Disallow: /
 User-agent: ZoominfoBot
 Disallow: /
 
-Sitemap: https://blog.zjuyk.site/sitemap.xml
+Sitemap: https://zjuyk.site/sitemap.xml

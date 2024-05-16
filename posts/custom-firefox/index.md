@@ -255,5 +255,5 @@ tab-item tab-item-substance:hover {
 ---
 
 > 作者: [千玄子](https://zjuyk.site)  
-> URL: https://blog.zjuyk.site/posts/custom-firefox/  
+> URL: https://zjuyk.site/blog-file/posts/custom-firefox/  
 

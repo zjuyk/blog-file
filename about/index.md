@@ -29,5 +29,5 @@
 ---
 
 > 作者:   
-> URL: https://blog.zjuyk.site/about/  
+> URL: https://zjuyk.site/blog-file/about/  
 
