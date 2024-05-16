@@ -23,7 +23,7 @@ date: 2019-11-06T23:16:56+08:00
     
 - [Axionl](https://axionl.me/)
 
-    艾老师，笔名艾雨寒，`ArchLinuxCN`的优秀打包者之一，会很有耐心的帮助新人解决问题，本博客就是由他的博客启发而来
+    艾老师，笔名艾雨寒，`ArchLinuxCN`的优秀打包者之一，会很有耐心的帮助新人解决问题
 
 - [Lilydjwg](https://blog.lilydjwg.me/)
 

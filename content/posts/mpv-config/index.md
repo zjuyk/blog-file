@@ -6,9 +6,6 @@ tags:
 - MPV
 categories:
 - 工具
-resources:
-  - name: featured-image
-    src: history.png
 ---
 
 如果是对我有所关注的小伙伴，会发现我之前曾经写过一份 `mpv` 配置，这一份是在我速成了 `lua` 后的升级版，其中包含对 `mpv` 0.33 版本大改的对应修正。

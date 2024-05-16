@@ -63,7 +63,7 @@ enableEmoji = true
       type = ""
   [[menu.main]]
     identifier = "categories"
-    parent = "archives"
+    parent = ""
     pre = ""
     post = ""
     name = "分类"
@@ -74,7 +74,7 @@ enableEmoji = true
       icon = "fa-solid fa-folder-tree"
   [[menu.main]]
     identifier = "tags"
-    parent = "archives"
+    parent = ""
     pre = ""
     post = ""
     name = "标签"
