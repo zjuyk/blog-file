@@ -13,7 +13,7 @@ categories:
 <!--more-->
 
 
-### 1. 成果展示
+### 成果展示
 
 ![recent](./history.png)
 
@@ -56,11 +56,11 @@ categories:
     └── user-input.lua
 ```
 
-### 2. 基本配置
+### 基本配置
 
 这一部分在 `~/.config/mpv/mpv.conf` 中设置
 
-#### 2.1 硬件加速
+#### 硬件加速
 
 在 `archwiki` 有很详细的介绍，这里就不赘叙了。配好 `vaapi` 之后在配置文件中加入
 
@@ -70,7 +70,7 @@ vo=gpu
 hwdec=vaapi
 ```
 
-#### 2.2 截图设置
+#### 截图设置
 
 我有时候需要给视频快速截图，这是 `mpv` 内置的功能
 
@@ -83,7 +83,7 @@ screenshot-high-bit-depth=yes
 screenshot-template="%F-%{estimated-frame-number:%P}"
 ```
 
-#### 2.3 其他设置
+#### 其他设置
 
 `mpv` 的参数之多是出了名的，我只挑选了一些常用的设置，详细参考 [官方文档](https://mpv.io/manual/stable/)
 
@@ -101,7 +101,7 @@ osc=no
 sub-auto=fuzzy
 ```
 
-### 3. 额外插件
+### 额外插件
 
 - 播放历史 [recent.lua](https://github.com/hacel/recent)
 
@@ -123,11 +123,11 @@ sub-auto=fuzzy
 
   这个脚本目前是从 `assrt.net` 来获取字幕的，电影相关的字幕很多，但是美剧之类的会差一些，我目前没什么需求，以后或许会考虑加点其他的源
 
-### 4. 总结
+### 总结
 
 这份配置需要记忆一定的快捷键，如果你更喜欢点点点，那可能不大适合你。
 
-### 5. 参考链接
+### 参考链接
 
 - [dotfiles](https://github.com/zjuyk/dotfiles)
 - [mpv userscripts](https://github.com/mpv-player/mpv/wiki/User-Scripts)
