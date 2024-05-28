@@ -5,7 +5,7 @@
 
 &lt;!--more--&gt;
 
-### 1 实现效果
+### 实现效果
 
 没图没真相，还是先来张效果图
 
@@ -13,9 +13,9 @@
 
 注：我是平铺用户，没有最大化和最小化这样的操作习惯，如果你有的话不建议完全照搬我的配置
 
-### 2 实现流程
+### 实现流程
 
-#### 2.1 移除标题栏
+#### 移除标题栏
 
 标题栏是个可有可无的东西，作为平铺用户我并不愿意它挤占屏幕高度。
 
@@ -29,7 +29,7 @@
 
 ![](./tiling.png)
 
-#### 2.2 引用外部样式
+#### 引用外部样式
 
 众所周知，`firefox` 允许加载外部 `css` 来进行定制化。如果你自己 `css` 能力比较强而且时间充裕可以按照[官方文档](https://www.userchrome.org)来自己定制。我并没有自己花太多时间去具体设计，而是选择在 [Firefox-Elegant-NordTheme](https://github.com/rafamadriz/Firefox-Elegant-NordTheme) 基础上进行修改，我认为他的调色很符合我的审美。
 
@@ -43,9 +43,9 @@ chrome/
       |- userContent.css
       |- userColors.css
 ```
-### 3 自定义调整
+### 自定义调整
 
-#### 3.1 移除标签栏
+#### 移除标签栏
 
 虽然我对那份配置的调色已算满意，但是默认的效果如下：
 
@@ -63,7 +63,7 @@ chrome/
 
 在 `#TabsToolbar` 下加上 `visibility: collapse;` 便可以关掉水平标签。
 
-#### 3.2 定制垂直标签栏
+#### 定制垂直标签栏
 
 对于 `treestyletab` 推荐采用 `proton` 主题，然后建议采用和火狐主题对应的颜色，我的 `css` 如下：
 
@@ -113,7 +113,7 @@ tab-item tab-item-substance:hover {
 
 你可以根据 [官方文档](https://github.com/piroor/treestyletab/wiki/Code-snippets-for-custom-style-rules#for-version-2x) 来进一步定制
 
-#### 3.3 额外小技巧
+#### 额外小技巧
 
 **移除 `treestyletab` Header，也就是侧边栏上面那个切换头**
 
@@ -159,7 +159,7 @@ tab-item tab-item-substance:hover {
 }
 ```
 
-### 4 我的扩展
+###  我的扩展
 
 - [SwitchyOmega](https://github.com/FelisCatus/SwitchyOmega)
   
@@ -219,17 +219,17 @@ tab-item tab-item-substance:hover {
 
   广告拦截插件，就我的体验上来说还行
 
-### 5 特殊设置
+### 特殊设置
 
-#### 5.1 硬件加速
+#### 硬件加速
 
 具体参见 [Arch wiki](https://wiki.archlinux.org/title/Firefox#Hardware_video_acceleration)
 
-#### 5.2 使用 QT 文件对话框
+#### 使用 QT 文件对话框
 
 先在 `about:config` 将 `widget.use-xdg-desktop-portal` 调成 `true`，再安装 `xdg-desktop-portal{,-kde}` 这两个包即可，但注意这会导致火狐一直认为自己不是默认浏览器，所以自己决定。
 
-### 6 注意点
+### 注意点
 
 - 目前网页截图在 `wayland` 下还无法复制
   
@@ -244,7 +244,7 @@ tab-item tab-item-substance:hover {
   ![](./fcitx5-chrome.png)
 
 
-### 7 参考和我的配置
+### 参考和我的配置
 
 - [我的配置](https://github.com/zjuyk/dotfiles)
 - [Firefox-Elegant-NordTheme](https://github.com/rafamadriz/Firefox-Elegant-NordTheme)
