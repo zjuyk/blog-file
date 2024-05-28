@@ -350,7 +350,7 @@ enableEmoji = true
   # FixIt 0.3.0 | NEW public Git repository information only then enableGitInfo is true
   [params.gitInfo]
     # e.g. "https://github.com/hugo-fixit/docs"
-    repo = "https://github.com/zjuyk/blog-files"
+    repo = "https://github.com/zjuyk/blog-file"
     branch = "master"
     # the content directory path relative to the root of the repository
     dir = "content"
